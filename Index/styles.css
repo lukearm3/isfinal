@@ -1,0 +1,113 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: lightgrey;
+    font-size: xx-large
+    
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: lightgrey; }
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: lightgrey;
+}
+h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightgrey;
+    font-size: small;
+}
+
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+.topright{
+    position: fixed;
+    top: 50px;
+    right: 25px;
+    z-index: 9999;
+}
+.rizz{
+    border: 4px solid;
+    border-image: linear-gradient(to right, #4d4d4d, #ccc);
+    border-image-slice: 1;
+    display: block;
+    margin: auto;
+}
+.list{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    color: lightgrey; 
+}
+.tableau{
+    width: 80%; 
+    margin: 0 auto;
+
+}
+@media only screen and (max-width: 768px) {
+    .tableau {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+}
+.flash:hover{
+    border: 5px dotted red;
+    padding: .5px;
+    margin: 0px;
+    display: block;
+    margin: auto;
+    animation: border-flash 1.3s infinite;
+    }
+    @keyframes border-flash {
+    0% {
+    border-color: red;
+    }
+    50% {
+    border-color: transparent;
+    }
+    100% {
+    border-color: red;
+    }
+    }
+.top{
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        text-align: right;
+    }
+.footstuff{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font: italic;
+    font-size: small;
+    background-color: #ccc;
+}
+.footer {
+    position: relative; /* Set position to relative */
+}
+
+.footer .additional-text {
+    position: absolute; /* Set position to absolute */
+    top: 0; /* Align text to the top */
+    left: 0; /* Align text to the left */
+    /* Additional styles for the stacked text */
+}
+
+h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightgrey;
+    font-size: small;
+    border: 4px solid;
+    border-image: linear-gradient(to right, #4d4d4d, #ccc);
+    border-image-slice: 1;
+    display: block;
+    bottom: 0px;
+}
